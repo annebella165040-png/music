@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("22602867"))
+API_HASH = getenv("7e2042dde2f4a8278cbe9d3bebae8ac5")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -37,7 +37,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/xbitcode/music.git",
+    "https://github.com/annebella165040-png/music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -89,12 +89,12 @@ autoclean = []
 confirmer = {}
 file_cache: dict[str, float] = {}
 
-START_IMG_URL = ["https://ibb.co/xqx9kZbn",
-                 "https://ibb.co/xqx9kZbn",
-                 "https://ibb.co/xqx9kZbn"]
+START_IMG_URL = ["https://files.catbox.moe/2ymu9o.jpg",
+                 "https://files.catbox.moe/2ymu9o.jpg",
+                 "https://files.catbox.moe/2ymu9o.jpg"]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://ibb.co/xqx9kZbn"
+    "PING_IMG_URL", "https://files.catbox.moe/2ymu9o.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/edd388a42dd2c499fd868.jpg"
